@@ -1,0 +1,57 @@
+main-container{
+    padding-left: 5%;
+    width: 93%;
+    height: 76%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 3px
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.671);
+    border-radius: .5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(106px, 1fr));
+    width:90%;
+    height: 100%;
+   
+
+}
+
+.container .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+}
+.label{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 20px;
+}
+#count{
+    margin-top: 2%;
+
+    border:none;
+    font-size: 50px;
+    height: 60%;
+    width: 100%;
+}
+.container input{
+    background: none;
+    text-align: center;
+   
+}
+
+.container .one span{
+    font-size: 100px;
+    margin: 10%;
+}
+
+.rotate svg:last-child{
+    rotate: -180deg;
+}
+
+
+

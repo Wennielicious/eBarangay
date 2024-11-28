@@ -1,0 +1,178 @@
+.add{
+    border-top: .5mm solid white;
+    width: 95%;
+    height: 50%;
+    margin-left: 2%;
+    margin-top: 1%;
+    color: white;
+    position: relative;
+    
+}
+.add p{
+    font-weight: 700;
+}
+#add{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 2.5%;
+    background-color: #ffffff63;
+    border-radius: .4rem;
+    border: none;
+    color: white;
+    width: 30%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .5mm solid rgba(255, 255, 255, 0.693);
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+#add input{
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    background: none;
+    border: none;
+    color: white;
+    text-align:start;
+    
+}
+#add input::placeholder{
+    color: white;
+    font-size: 17px;
+}
+#adds{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 2%;
+    background-color: #34A353;
+    border-radius: .4rem;
+    border: none;
+    color: white;
+    width: 10%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#adds span{
+    margin-right: 3%;
+}
+#edit{
+    cursor: pointer;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    background-color: #34A353;
+    border-radius: .4rem;
+    border: none;
+    color: white;
+    width: 15%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+#edit span{
+    margin-right: 3%;
+    font-size: 13px;
+}
+#list{
+    border: none;
+    font-size: 13px;
+    font-weight: 100;
+}
+.sec{
+    width: 98%;
+    height: 76.5%;
+    margin-top: -26.5%;
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    overflow-x: hidden;
+    padding: 0;
+    column-gap: -70%;
+    row-gap: 12%;
+}
+.sec::-webkit-scrollbar{
+    width: 0;
+}
+.sec #blur .active{
+    filter: blur(100px);
+}
+.card-one{
+    width: 86%;
+    height: 250%;
+    background: linear-gradient( #1E4460 90%, #1E4460 90%, white 90%);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    position: relative;
+    padding-left: 20px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "houseno"
+    "housemember";
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.housenumber{
+
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    grid-area: houseno;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+}
+.purok{
+    grid-area: purok;
+    background: none;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    right: 0;
+    height: 50%;
+    width: 40%;
+}
+.household{
+    color: white;
+    grid-area: housemember;
+    font-size: 15px; 
+}
+.member{
+    position: absolute;
+    top: 33%;
+    right: 0;
+    height: 50%;
+    grid-area: member;
+    background: none;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    width: 40%;
+}
+
+
+
+

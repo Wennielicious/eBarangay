@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+main-one{
+position: fixed;
+left: 15%;
+top: 20%;
+height: 50%;
+}
+main-one p{
+    margin-left: 50px;
+}
+h1{
+    color: #1E4460;
+}
+.lab{
+    font-size: 15px;
+}
+.input{
+    height: 22%;
+    width: 70%;
+}
+input{
+    width: 100%;
+    height: 50%;
+    font-size: 15px;
+    margin-top: 1%;
+    margin-left: 15%;
+    background-color: #F7FBFF;
+    border: .5mm solid #D4D7E3;
+    border-radius: .3rem;
+    padding-left: 20px;
+}
+input::placeholder{
+    color: #8897AD;
+}
+span{
+    position: absolute;
+    left: 10.1%;
+    
+}
+.mail{
+    top: 31%;
+    font-size:18px;
+}
+.pass{
+    top: 50%;
+    font-size:18px;
+}
+#forgot{
+    margin-left: 57%;
+    right: 20%;
+    text-decoration: none;
+    
+}
+.btn{
+    width: 71%;
+    height: 10%;
+    font-size: 15px;
+    margin-top: 2%;
+    margin-left: 50px;
+    border-radius: .3rem;
+    
+    border: none;
+    background-color: #7AB2DD;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+.bg{
+    right: 5%;
+    top: 5%;
+    width: 40%;
+    height: 90%;
+    position: fixed;
+    background: url("../img/1.jpg");
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.circle{
+    margin-top: 36%;
+    margin-left: 33%;
+    width: 35%;
+    clip-path: circle(50%);
+}
+#st{
+    clip-path: circle(50%);
+    width: 100%;
+}
+p{
+    font-size: 20   px;
+}
+
+/* Fixed size for input fields and button */
+.input input, .btn {
+    width: 100%; /* Adjust as needed */
+    max-width: 350px; /* Fixed width to prevent resizing */
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Error message styling to keep it separate */
+.error {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+    
+}
